@@ -127,7 +127,7 @@ STATIC_URL = '/static/'
 #         'rest_framework.throttling.UserRateThrottle'
 #     ],
 #     'DEFAULT_THROTTLE_RATES': {
-#         'anon': '1/sec',
-#         'user': '2/sec'
+#         'anon': '5/sec',
+#         'user': '10/sec'
 #     }
 # }
